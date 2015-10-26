@@ -1,0 +1,36 @@
+\begin{table}
+\begin{adjustwidth}{-1in}{-1in} 
+  \centering
+  \caption{Impact of rainfall shocks on consumption for mobile money users and non-users} \label{MM spill}
+\begin{tabular}{lcccccc}
+\multicolumn{7}{c}{Dependent variable: Log consumption per capita} \\\hline
+& \multicolumn{3}{c}{ Self-reported shock} & \multicolumn{3}{c}{1 sd rainfall shock} \\ \cmidrule(r){2-4} \cmidrule(l){5-7}
+ & (1) & (2) & (3)  & (4) & (5) & (6)  \\
+
+  & Diff-in-diff & FE & FE & Diff-in-diff & FE & FE \\ \hline
+ &  &  &  &  &  &  \\
+Rain shock & -0.106*** & -0.060** & -0.362 & -0.066*** & -0.091*** & -0.183   \\
+ & (0.030) & (0.028) & (0.226)& (0.023) & (0.021) & (0.195)  \\
+Village MM use   & 0.119** & 0.248*** & 0.265*** & 0.070 & 0.233*** & 0.225*** \\
+  & (0.053) & (0.050) & (0.051) & (0.058) & (0.056) & (0.050) \\
+Shock*village MM use  & 0.027 & -0.093 & -0.091* & 0.123 & 0.037 & -0.006 \\
+& (0.098) & (0.088) & (0.101)   & (0.077) & (0.075) & (0.079)  \\
+Mobile money use & 0.141*** & 0.033 & 0.028 & 0.123*** & 0.036 & 0.028  \\
+ & (0.025) & (0.026) & (0.026) & (0.027) & (0.029) & (0.029) \\
+Shock*MM use  & 0.081 & 0.138*** & 0.132**  & 0.092** & 0.079* & 0.099**  \\
+  & (0.050) & (0.048) & (0.054) & (0.041) & (0.042) & (0.047) \\
+
+Observations & 9,770 & 9,770 & 9,768 & 9,770 & 9,770 & 9,768 \\
+Number of individuals  & 3,798 & 3,798 & 3,798 & 3,798 & 3,798 & 3,798 \\
+R-squared & 0.565 & 0.118 & 0.126 & 0.565 & 0.124 & 0.136 \\ \hline
+Mean of village MM use  & 0.118 & 0.118 & 0.118 & 0.118 & 0.118 & 0.118 \\
+Mean of village MM use if $>0$ & 0.359 & 0.359 & 0.359 & 0.359 & 0.359 & 0.359 \\
+Mean of user & 0.181 & 0.181 & 0.181 & 0.181 & 0.181 & 0.181 \\
+Mean of Shock & 0.144 & 0.144 & 0.144 & 0.178 & 0.178 & 0.178 \\
+Interactions with shock &  &  & YES &  &  & YES \\ \hline
+\multicolumn{7}{p{15cm}}{All regressions include full set of household control variables from Table \ref{HH sum} and errors clustered at the village level. Village MM use refers to the proportion of households in the village using mobile money. Mobile money use is a dummy variable equal to one if that household uses mobile money. Interactions are the control variables interacted with the shock.} \\
+\multicolumn{7}{l}{ Standard errors in brackets, *** p$<$0.01, ** p$<$0.05, * p$<$0.1} 
+\end{tabular}
+ \end{adjustwidth}
+ \end{table}
+ 

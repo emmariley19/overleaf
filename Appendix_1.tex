@@ -1,0 +1,51 @@
+\newpage
+\section{Appendix}
+\appendix
+\section{The Mace model} \label{append mace}
+Consider a village of risk-averse utility maximising households indexed by $j=1 \ldots J$. There are T periods and states $s_{\tau t}, \tau=1 \ldots S$. There is a probability $\pi(s_{\tau t})$ that state $\tau$ occurs in period $t$ such that $\sum_{\tau=1}^{S} \pi(s_{\tau t})=1$. Households share information. Each household has utility $U(C^j(s_{\tau t}),h^j(s_{\tau t}))$ where $C^j_t(s_{\tau t})$ is consumption and $h^j(s(\tau t))$ is a preference shock and both can be functions of the state of the world over time. Households have discount factor $\beta \in (0,1)$, thus expected lifetime utility is: 
+\begin{equation} \label{utility}
+\sum_{t=0}^{\infty} \beta^t \sum_{\tau=1}^{S}\pi(s_{\tau t})\cdot U(C^j_t(s_{\tau t}),h^j(s_{\tau t}))
+\end{equation}
+Household j receives an exogenous endowment of the consumption good: 
+\begin{equation} \label{eq:endow}
+y^j_t(s_{\tau t}) = \bar{y}^j_t + \eta_t^j(s_{\tau t}) + \epsilon_t^j(s_{\tau t})
+\end{equation}
+where $\bar{y}^j_t$ is the deterministic portion of output, $\eta_t^j(s_{\tau t})$ is an aggregate shock to household $j$'s endowment (which may still differ across households) and $\epsilon_t^j(s_{\tau t})$ is the idiosyncratic shock. When equation \eqref{eq:endow} is aggregated across J households the aggregate endowment is given by:
+\begin{equation} \label{eq:agg endow}
+y^a_t(s_{\tau t}) = \bar{y}^a_t + \eta_t^a(s_{\tau t})
+\end{equation}
+where $y^a_t(s_{\tau t})= \frac{1}{J}\sum_{j=1}^J y^j_t(s_{\tau t}), \eta^a_t=\frac{1}{J}\sum_{j=1}^J\eta_t^j(s_{\tau t})$ and $\sum_{j=1}^J \epsilon_t^j(s_{\tau t})=0$ since idiosyncratic shocks balance out within the village as J approaches infinity. Aggregate uncertainty $\eta_t^a(s_{\tau t}) \neq 0$ for at least one event for all $t$.  
+
+Complete markets are assumed so that households can trade the consumption good contingent on any state of the world occurring. There are no credit markets and no savings. All shocks are common knowledge so there are no information constraints. Households are price takers so that no one household is large enough to affect the price of the consumption good.
+
+Since I have assumed complete markets, price taking and increasing utility the first welfare theorem states that the outcome must be Pareto efficient. The Pareto optimal allocation of risk is found by maximising a weighted sum on the utility of each of the J households where the weights are given by $\lambda^j$ where $0 < \lambda^j < 0, \sum\lambda_j=1 $:
+\begin{equation} \label{eq: social max}
+\sum_{j=1}^J \lambda^j \sum_{t=0}^{T} \beta^t \sum_{\tau=1}^{S}\pi(s_{\tau t})\cdot U(C^j_t(s_{\tau t}),h^j(s_{\tau t}))
+\end{equation}
+subject to the aggregate endowment:
+\begin{equation}
+\sum_{j=1}^J C^j_t(s_{\tau t})= \sum_{j=1}^J y_t^j(s_{\tau t})
+\end{equation}
+
+Mace showed that for the Pareto efficient outcome to be achieved:
+\begin{equation} \label{eq: FOC}
+\frac{U'(C^i_t(s_{\tau t}))}{U'(C^j_t(s_{\tau t}))}=\frac{\lambda^j}{\lambda^i} \qquad \forall i, j, \tau, t
+\end{equation}
+Where $\lambda^i$ is the welfare weight for household $i$. This condition says that the weighted marginal utilities are equated across households so that any household's consumption is a monotonically increasing function of average village consumption. 
+
+I consider a class of utility functions that exhibit constant relative risk aversion: 
+\begin{equation}
+U(c,h)= \exp{\sigma h^j_t}\frac{1}{\sigma}(C^j_t)^{\sigma}
+\end{equation}
+Applying this utility functional form to the first order condition \eqref{eq: FOC} aggregating over J households and taking logarithms gives the consumption for household j:
+\begin{equation} \label{eq: consumption app}
+\ln C_t^j(s_{\tau t}) = \ln C^a_t(s_{\tau t}) + \frac{1}{1-\sigma}(\ln \lambda^i- \lambda^a) + \frac{\sigma}{1-\sigma}(h^i- h^a_t(s_{\tau t}))
+\end{equation}
+where
+\[
+\lambda^a=\frac{1}{J} \sum_{j=1}^J \ln \lambda^j \qquad C_t^a=\frac{1}{J} \sum_{j=1}^J \ln C_t^j \qquad h^a_t=\frac{1}{J} \sum_{j=1}^J \ln h_t^j
+\]
+Mace showed that household consumption depends on aggregate consumption in the village plus a time invariant household fixed effect $\lambda$, which depends on the relative weight in the Pareto optimum allocation, and preference shocks. Individual shocks are perfectly insured at the village level and do not affect household consumption
+
+
+

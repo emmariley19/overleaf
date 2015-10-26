@@ -1,0 +1,27 @@
+\begin{table}
+\centering
+\caption{Regressions using weights from nearest neighbour propensity score matching} \label{pscore}
+
+\begin{tabulary}{0.9\textwidth}{LCCCC} \hline 
+\multicolumn{5}{c}{Dependent variable: Log per capita consumption}\\\hline
+  & \multicolumn{2}{c}{Self reported rainfall shock} &\multicolumn{2}{c}{ 1sd rain shock} \\ 
+ & (1) & (2) & (3) & (4)  \\
+  & Diff-in-diff  & FE & Diff-in-diff  & FE \\ \hline
+
+Rain shock & -0.08* & -0.02 & -0.03  & -0.05** \\
+ & (0.04) & (0.05) & (0.03) & (0.02)   \\
+Village MM & 0.04 & 0.11** & 0.00 & 0.13** \\
+ & (0.06) & (0.05) & (0.04)  & (0.05) \\
+Rain shock*village MM & -0.05 & -0.04 & 0.04 & 0.03  \\
+ & (0.12) & (0.12) & (0.04)  & (0.04) \\
+MM use & 0.08*** & 0.06** & 0.08***  & 0.09*** \\
+ & (0.03) & (0.02) & (0.02) & (0.02) \\
+Rain shock*MM use & 0.12** & 0.06 & 0.19***  & 0.12*  \\
+ & (0.05) & (0.05) & (0.07)  & (0.07)  \\
+Observations & 3,848 & 3,848 & 3,838  & 3,838 \\
+Number of individuals & 1,551 & 1,551 & 1,574 &  1,574 \\
+R-squared & 0.57 & 0.13 & 0.57  & 0.12 \\\hline
+\multicolumn{5}{p{12cm}}{ Difference-in-difference and difference-in-difference with household fixed effects regressions using frequency weights from nearest neighbour propensity score matching. Village clustered standard errors in brackets and full set of control variables from Table \ref{HH sum}. Village MM refers to the proportion of households in the village using mobile money. MM use is a dummy variable equal to one if that household uses mobile money. The top 5\% of the consumption distribution had been truncated since there are no households in the non-user sample with incomes that high.} \\
+\multicolumn{5}{l}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabulary}
+\end{table}

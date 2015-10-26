@@ -1,0 +1,80 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage[round]{natbib}
+\usepackage{comment} 
+\usepackage[margin=3cm]{geometry} %reduces margin
+\linespread{1.6}
+\usepackage{booktabs} %for tables
+\usepackage{lscape}
+\usepackage{chngpage} % fit table to page
+\usepackage{bm}
+\usepackage{tabularx}
+\usepackage{tabulary}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{hyperref}
+\usepackage[symbol*]{footmisc}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+    linktoc=all
+}
+
+
+
+\begin{document}
+\begin{titlepage}
+\title{Mobile Money and Risk Sharing Against Aggregate Shocks}
+\author{Emma Riley \footnote{I would like to thank  Karlijn Morsink and Simon Quinn, for their generous help, inspiring discussions, insight into economic research and patience in helping me work through different ideas and econometric techniques. I would like to thank Tavneet Suri for her discussions around mobile money services and advice on data sources. I would like to acknowledge the LSMS division of the World Bank and the Tanzania National Bureau of Statistics for the main data used in this paper and for helping me with additional data needs.} \\ Department of Economics, Manor Road Building, Oxford OX1 3UQ, UK \\ (email: emma.riley@economics.ox.ac.uk)}
+\thispagestyle{empty}
+\maketitle 
+\begin{center}
+\section*{Abstract}
+\end{center}
+Households in developing countries have gained increased access to remittances through the recent introduction of mobile money services. While the benefits of improved risk sharing to the receiver of remittances have been examined in past research, potential benefits to the wider community have not been looked into. I examine the impact of mobile money services on consumption smoothing after an aggregate shock for both users of mobile money and for household that don't use mobile money but who reside in villages with users. This allows me to determine the extent to which remittances received via mobile money are shared within villages in which I cannot reject perfect risk sharing. Using a difference-in-difference fixed effects specification, I find that while having other mobile money users in the village increases the per capita consumption of the entire village by between  8 and 14\%, after an aggregate (rainfall) shock it is only users of mobile money who are able to smooth their consumption. Mobile money services therefore bring wider benefits to the community above those to the user. \\
+
+\noindent Keywords: risk sharing, mobile money \\
+JEL Classification - O16, O17, O33
+\thispagestyle{empty}
+
+
+
+\end{titlepage}
+
+\setcounter{page}{0}
+\newpage
+\section{Introduction}
+\input{Intro}
+
+
+
+\input{Literature_review}
+\input{Background_mobile_money_Tanzania}
+\input{Model}
+
+\input{Identification_strategy}
+\input{Data}
+\input{Empirical_analysis}
+\input{Robustness}
+\input{Mechanisms}
+
+
+\newpage
+\clearpage
+\section{Conclusion and further work}
+\input{Conclusion}
+
+
+\clearpage
+\bibliographystyle{apalike}
+\bibliography{Bibliography.bib}
+
+\input{Appendix_1}
+\end{document}

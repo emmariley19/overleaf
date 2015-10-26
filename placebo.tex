@@ -1,0 +1,29 @@
+\begin{table}
+\centering
+\caption{Placebo test of future mobile money use 2007-2009} \label{placebo}
+
+\begin{tabular}{lccccc} \multicolumn{5}{c}{Dependent variable: Log food consumption per capita} \\\hline
+& \multicolumn{2}{c}{Placebo pre-mobile money data} & \multicolumn{2}{c}{Actual mobile money use data} \\ \cmidrule(r){2-3} \cmidrule(l){4-5}
+ & (1) & (2) & (3) & (4) \\
+ & Diff-in-diff & FE & Diff-in-diff  & FE \\ \hline
+ &  &  &  &  &  \\
+Rain shock &-0.05** & -0.04 & -0.07***  & -0.04 \\
+ & (0.03) & (0.05) & (0.03)  & (0.04) \\
+ MM ever & -0.04 & -0.05 &    &  \\
+ & (0.05) & (0.05) &  &  &  \\
+MM use &  &  & 0.06** & 0.06** \\
+ &  &  & (0.03) & (0.03) \\
+ 
+Rain shock*MM ever & 0.01 & 0.01 &  &  \\
+ & (0.09) & (0.01) &  &  \\
+
+Rain shock*MM use &  &  & 0.11**  & 0.12** \\
+ &  &  & (0.05) & (0.06) \\
+Observations & 2,332 & 2,332 & 9,567  & 9,567 \\
+Number of individuals & 1,204 & 1,204 & 3,738 & 3,738 \\
+R-squared & 0.369 & 0.225 & 0.276  & 0.101 \\
+  \hline
+\multicolumn{5}{p{14cm}}{Regressions include clustered errors at the village level and a reduced set of control variables consisting of: household head age, household head education, female head dummy, household size, rural dummy, whether the household owns a mobile phone, baseline wealth level constructed from principal component analysis and household head occupation dummies. The shock variable here is a self-reported drought or flood dummy. Regressions (1) and (2) run specification \eqref{eq: placebo} on 2007 and 2008-9 data with a dummy variable MM ever if a household ever used mobile money after 2009 and regressions (3) and (4) run specification \eqref{eq: specification agg shock} on the three waves of NPS data. MM use is a dummy variable equal to one if the household uses mobile money in a given year.} \\
+\multicolumn{5}{l}{ Standard errors in brackets, *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabular}
+\end{table}
