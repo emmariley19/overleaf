@@ -1,33 +1,94 @@
 \begin{table}
 \centering
-  \caption{Correlations of mobile money use and access} \label{MM use access}
+  \caption{Correlations of mobile money use } \label{MM use}
 
-\begin{tabulary}{1\textwidth}{lCC} \hline
- & (1) & (2) \\
- & MM use=1 if household uses Mobile money & MM access=1 if mobile money agent within 5km of village \\ \hline
- &  &  \\
-Rural & -0.143*** & -0.036 \\
- & (0.016) & (0.035) \\
- Base wealth & 0.006*** & -0.009 \\
- & (0.002) & (0.010) \\
-Head education & -0.001 & 0.013 \\
- & (0.002) & (0.009) \\
-Head age & -0.003*** & 0.000 \\
- & (0.0005) & (0.002) \\
-Household size & -0.008*** & -0.004 \\
- & (0.002) & (0.008) \\
-Mobile phone ownership & 0.248*** & 0.077 \\
- & (0.031) & (0.065) \\
-Number of loans & 0.101*** & 0.078 \\
- & (0.013) & (0.090) \\
-Bank account & 0.101*** & -0.051 \\
- & (0.014) & (0.075) \\
-ROSCA & 0.077*** & -0.205 \\
- & (0.026) & (0.132) \\
-Observations & 9,670 & 1060 \\
- Village controls & & YES \\ \hline
-
-\multicolumn{3}{p{14cm}}{Average marginal effects from logit regressions of mobile money use and mobile money agent access. Regression 1 has errors clustered at the village level and covariates are at the household level . Regression 2 is run at the village level, with village level averages of the household covariates and also includes village level characteristics which could affect an agent's decision on whether to locate there. These are shown in appendix \ref{appen_vill}} \\
-\multicolumn{3}{l}{ Standard errors in brackets, *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\begin{tabulary}{1\textwidth}{lC} \hline
+ & MM use=1 if household uses Mobile money \\ \hline
+Rural & -0.143***  \\
+ & (0.016)\\
+ Base wealth & 0.006***  \\
+ & (0.002)  \\
+Head education & -0.001  \\
+ & (0.002) \\
+Head age & -0.003*** \\
+ & (0.0005) \\
+Household size & -0.008*** \\
+ & (0.002)  \\
+Mobile phone ownership & 0.248*** \\
+ & (0.031)  \\
+Number of loans & 0.101***  \\
+ & (0.013)  \\
+Bank account & 0.101***  \\
+ & (0.014)  \\
+ROSCA & 0.077***  \\
+ & (0.026)  \\
+Observations & 9,670 \\
+ \hline
+\multicolumn{2}{p{10cm}}{Average marginal effects from logit regressions of mobile money use and mobile money agent access. Errors are clustered at the village level and covariates are at the household level} \\
+\multicolumn{2}{l}{ Standard errors in brackets, *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
 \end{tabulary}
+\end{table}
+
+\begin{table}
+\centering
+\resizebox{!}{0.5\textheight}{\begin{minipage}{\textwidth}
+\centering
+  \caption{Correlations of mobile money access } \label{MM access}
+  \def\arraystretch{0.5}
+\begin{tabulary}{0.7\textwidth}{lc} \hline
+ & MM agent=1 if mobile money agent  within 5km \\ \hline
+ &  \\
+Rural & -0.036 \\
+ & (0.035) \\
+Base wealth & -0.009 \\
+ & (0.010) \\
+ Head educucation\_family & 0.013 \\
+ & (0.009) \\
+Head age & -0.000 \\
+ & (0.002) \\
+Household sizxe & -0.004 \\
+ & (0.008) \\
+Mobile phone ownership & -0.077 \\
+ & (0.065) \\
+Number of loans & 0.079 \\
+ & (0.090) \\
+Bank account & -0.051 \\
+ & (0.075) \\
+ ROSCA & 0.205 \\
+ & (0.132) \\
+ATM & 0.090* \\
+ & (0.054) \\
+Bank & -0.034 \\
+ & (0.055) \\
+Community tap water & -0.020 \\
+ & (0.025) \\
+Court & 0.015 \\
+ & (0.037) \\
+Dip tank & 0.037 \\
+ & (0.039) \\
+health\_centre & 0.019 \\
+ & (0.023) \\
+hospital & 0.003 \\
+ & (0.045) \\
+primary school & -0.005 \\
+ & (0.032) \\
+secondary school & 0.054** \\
+ & (0.022) \\
+Market daily & 0.044* \\
+ & (0.026) \\
+Market weekly & 0.088*** \\
+ & (0.026) \\
+Police station & 0.057** \\
+ & (0.026) \\
+Post office & -0.038 \\
+ & (0.044) \\
+Nursary & 0.007 \\
+ & (0.035) \\
+SACCOs & 0.004 \\
+ & (0.023) \\
+Observations & 1,060 \\ \hline
+\multicolumn{2}{p{12cm}}{ The regression is run at the village level, with village level averages of the household covariates and also includes village level characteristics which could affect an agent's decision on whether to locate there. } \\
+\multicolumn{2}{l}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+\end{tabulary}
+\end{minipage}}
 \end{table}
