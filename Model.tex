@@ -6,7 +6,7 @@ I start by setting out the canonical model of Mace (1991)  \nocite{mace1991full}
 
 As in the Mace model, I consider a village of risk-averse utility maximising households indexed by $j=1 \ldots J$. There are T periods and village states of nature $s_{\tau t}, \tau=1 \ldots S$. There is a probability $\pi(s_{\tau t})$ that state $\tau$ occurs in period $t$ such that $\sum_{\tau=1}^{S} \pi(s_{\tau t})=1$.  Each household has utility $U(C^j(s_{\tau t}),h^j(s_{\tau t}))$ where $C^j_t(s_{\tau t})$ is consumption and $h^j(s_{\tau t})$ is a preference shock representing changes in taste for consumption and both can be functions of the state of the world over time. I assume each household receives an exogenous amount of the consumption good $y_t^j(s_{\tau t})$ which is visible to everyone in the community. Households have no access to savings or credit. 
 
-Mace showed (see Appendix) that for the Pareto efficient outcome to be achieved:
+Mace showed that for the Pareto efficient outcome to be achieved:
 \begin{equation} \label{eq: FOC1}
 \frac{U'(C^i_t(s_{\tau t}))}{U'(C^j_t(s_{\tau t}))}=\frac{\lambda^j}{\lambda^i} \qquad \forall i, j, \tau, t
 \end{equation}
@@ -63,16 +63,7 @@ If there are two other households, $D$ and $E$, who are located in different vil
 
 This gives 3 cases for the impact of an exogenous rainfall shock which I will formalise as: 
 
-\textbf{Case 1: No mobile money use}. Non-users in villages without mobile money will experience the full negative impact of the aggregate shock $\eta_t^a(s_{\tau t})$  on each household's consumption as in equation \eqref{eq: agg shock}. 
-
-Case 1 (no mobile money use) is shown in Figure \ref{fig: no link}. 
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=17cm,trim=0cm 4cm 0cm 4cm,clip=true, keepaspectratio]{Slide1new}
-\caption{Case 1: No mobile money use}
-    \label{fig: no link}
-\end{figure}
-There are two villages with a migrant in village 1, D, and a home network Village 2 which experiences a rain shock. However without any links to D in village 1, the households of village 2 will experience a drop in consumption since they are unable to insure themselves against the aggregate shock.
+\textbf{Case 1: No mobile money use}. Non-users in villages without mobile money will experience the full negative impact of the aggregate shock $\eta_t^a(s_{\tau t})$  on each household's consumption as in equation \eqref{eq: agg shock}.  Suppose there are two villages with a migrant in village 1, D, and a home network village 2 which experiences a rain shock. Without any links to D in village 1, the households of village 2 will experience a drop in consumption since they are unable to insure themselves against the aggregate shock. 
 
 \textbf{Case 2: Perfect village sharing}. In villages with mobile money, I assume $M$ users of mobile money and $N$ non-users such that $N+M=J$. Users of mobile money receive a transfer $t^m$ which is insufficient to cover the impact of the aggregate shock for the entire village, $t^m<J\eta_t^a(s_{\tau t})$ but can cover the aggregate shock for one household $t^m=\eta_t^a(s_{\tau t})$. With $M$ mobile-money-using households each receiving a transfer $t^m$ and shared between $J$ households, each household receives $\frac{M}{J}t^m$. 
 
@@ -81,14 +72,7 @@ It can be seen that all households are partially insured against the aggregate s
 \ln C_t^j(s_{\tau t}) = \ln (\bar{y}^a_t + \eta_t^a(s_{\tau t}) + \frac{M}{J}t^m) + \frac{1}{1-\sigma}(\ln \lambda^i- \lambda^a) + \frac{\sigma}{1-\sigma}(h^i- h^a_t(s_{\tau t}))
 \end{equation}
 
-Case 2 is shown in Figure \ref{fig:link}. 
-\begin{figure}[p]
-    \centering
-\includegraphics[width=17cm,trim=0cm 4cm 0cm 4cm,clip=true, keepaspectratio]{Slide2.PNG} 
-\caption{Case 2: mobile money use and perfect risk sharing in villages}
-    \label{fig:link}
-\end{figure}
-The migrant worker in village 1, $A$, is linked via mobile money to household $B$ in village 2. When village 2 experiences a rainfall shock, household $A$ sends money to household B who then shares this with all the other households in the village, such as $C$. Hence there are benefits in mobile money use to the rest of the community. Every household experiences a small drop in consumption due to the aggregate shock since $A$ cannot insure the entirety of village 2. The amount of insurance will be increasing in the number of distinct links to migrants in outside villages. 
+To illustrate, suppose the migrant worker in village 1, $A$, is linked via mobile money to household $B$ in village 2. When village 2 experiences a rainfall shock, household $A$ sends money to household B who then shares this with all the other households in the village, such as $C$. Hence there are benefits in mobile money use to the rest of the community. Every household experiences a small drop in consumption due to the aggregate shock since $A$ cannot insure the entirety of village 2. The amount of insurance will be increasing in the number of distinct links to migrants in outside villages. 
 
 \textbf{Case 3: The mobile-money-using household does not share the remittance with other households in the village.}
 The mobile money using household receives the transfer $t^m$ and does not share this with the rest of the community,  but uses it itself to smooth the aggregate shock. Whatever the reason for the household not sharing the remittances, if remittances are not shared there will be no consumption smoothing benefit from mobile money users to other members of the community.  Mobile-money-using households will get consumption of:
@@ -97,14 +81,7 @@ The mobile money using household receives the transfer $t^m$ and does not share 
 \end{equation}
 where the transfer $t^m$ exactly counters the negative aggregate shock $\eta^a$.
 
-Case 3 is shown in Figure \ref{fig:link2}.
-\begin{figure}[p]
-    \centering
-\includegraphics[width=17cm,trim=0cm 4cm 0cm 4cm,clip=true, keepaspectratio]{Slide3new} 
-\caption{Case 3: villages with mobile money where the mobile money recipient does not share the remittance with the other village households }
-    \label{fig:link2}
-\end{figure}
-When village 2 experiences a rainfall shock, household $A$ sends money to household $B$, compensating the household for any drop in consumption due to the aggregate shock. $B$ does not share this with other households in the village. Other households in village 2, will therefore still suffer a drop in consumption due to the aggregate shock.
+For example, if village 2 experiences a rainfall shock, household $A$ sends money to household $B$, compensating the household for any drop in consumption due to the aggregate shock. $B$ does not share this with other households in the village. Other households in village 2, will therefore still suffer a drop in consumption due to the aggregate shock.
 
 
 
