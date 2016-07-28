@@ -2,30 +2,29 @@
 \centering
 \caption{IV results} \label{IV}
 \begin{tabulary}{0.9\textwidth}{Lcccc} 
-\multicolumn{5}{c}{Dependent variable: Log consumption per capita}\\\hline
-& \multicolumn{2}{c}{Self reported shock} & \multicolumn{2}{c}{1 sd rain shock} \\
- & (1) & (2) & (3) & (4) \\
- \cmidrule(r){2-3} \cmidrule(l){4-5}
- & IV Diff-in-diff & IV FE & IV Diff-in-diff & IV FE \\ \hline
- &  &  &  &  \\
-Rain shock  & -0.064 & -0.066 & 0.011 & -0.086*  \\
-  & (0.068) & (0.063)  & (0.058) & (0.045)  \\ 
-Village MM use & 0.643 & 0.200 & -0.144 & 0.464 \\
- & (0.537) & (0.420) & (1.655) & (0.352) \\
-Mobile money use  & -0.939 & -0.085 & 0.947 & -0.852 \\
- & (1.068) & (0.703) & (3.346) & (1.034) \\
- Rain shock*MM use & 0.037 & 0.036 & -0.403 & 0.471  \\
-  & (0.342) & (0.350)  & (0.789) & (0.465) \\
-R-squared & 0.397 & 0.124 & 0.426 & -0.151 \\
-Observations & 4,409 & 3,286  & 4,409 &  3,286 \\
-Number of households & 1,643  & 1,643 & 1,643 & 1,643 \\
+\multicolumn{3}{c}{Dependent variable: Log consumption per capita}\\\hline
+& \multicolumn{1}{c}{Self reported shock} & \multicolumn{1}{c}{1 sd rain shock} \\
+ & (1) & (2) \\
+ &  IV FE & IV FE \\ \hline
+ &  &   \\
+Rain shock & -0.066  & -0.091*  \\
+  & (0.063)  & (0.051)  \\ 
+Village MM use & 0.200 & 0.576 \\
+ & (0.420) & (0.387) \\
+Mobile money use  & -0.085 & -0.867 \\
+ & (0.703) & (0.751) \\
+ Rain shock*MM use  & 0.036  & 0.396  \\
+  & (0.350)   & (0.258) \\
+R-squared  & 0.124  & 0.151 \\
+Observations & 3,286 & 3,286 \\
+Number of households & 1,643  & 1,643 \\
 \hline
-F-stat on excluded instruments for MM use & 2.66 & 4.57 & 2.07 & 9.71 \\
-F-stat on excluded instruments for Rain shock*MM use & 28.7 & 12.07 & 22.04 & 50.3 \\
-Cragg-Donald Wald F statistic & 5.44 & 1.96 & 6.47 & 2.40 \\
-Underidentification test $\chi^2$ p-value & 0.07 & 0.00 & 0.00 & 0.02 \\
-Sargan-Hansen test $\chi^2$ p-value & 0.25 & 0.46 & 0.21 & 0.17\\\hline
-\multicolumn{5}{p{13cm}}{ Instruments were distance to nearest mobile money agent and a dummy indicating a mobile money agent within the village, and their interactions with the shock variable. All regressions include full set of household control variables from Table \ref{HH sum}. All regressions also control for village characteristics which could affect the ease of sending remittances. These are the distance to the nearest main road, distance to nearest population centre and distance to nearest market. Village MM use refers to the proportion of households in the village using mobile money. Mobile money use is a dummy variable equal to one if that household uses mobile money. }\\
-\multicolumn{5}{l}{ Standard errors in brackets, *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
+F-stat on excluded instruments for MM use  & 4.57  & 9.71 \\
+F-stat on excluded instruments for Rain shock*MM use  & 12.07 & 50.3 \\
+Cragg-Donald Wald F statistic & 1.96 & 2.40 \\
+Underidentification test $\chi^2$ p-value  & 0.00  & 0.02 \\
+Sargan-Hansen test $\chi^2$ p-value & 0.46  & 0.17\\\hline
+\multicolumn{3}{p{14cm}}{ Instruments were distance to nearest mobile money agent and a dummy indicating a mobile money agent within the village, and their interactions with the shock variable. All regressions include full set of household control variables from Table \ref{HH sum}. All regressions also control for village characteristics which could affect the ease of sending remittances. These are the distance to the nearest main road, distance to nearest population centre and distance to nearest market. Village MM use refers to the proportion of households in the village using mobile money. Mobile money use is a dummy variable equal to one if that household uses mobile money. }\\
+\multicolumn{3}{l}{ Standard errors in brackets, *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
 \end{tabulary}
 \end{table}
