@@ -1,0 +1,34 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [2][-]{subsection.1.1}{Literature review}{section.1}% 2
+\BOOKMARK [3][-]{subsubsection.1.1.1}{Risk sharing}{subsection.1.1}% 3
+\BOOKMARK [3][-]{subsubsection.1.1.2}{Mobile Money Services}{subsection.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.2}{Context: Mobile money in Tanzania}{section.1}% 5
+\BOOKMARK [1][-]{section.2}{Theoretical framework}{}% 6
+\BOOKMARK [2][-]{subsection.2.1}{Aggregate shocks}{section.2}% 7
+\BOOKMARK [2][-]{subsection.2.2}{Mobile money}{section.2}% 8
+\BOOKMARK [2][-]{subsection.2.3}{Identification strategy}{section.2}% 9
+\BOOKMARK [3][-]{subsubsection.2.3.1}{Specification 1: Village risk sharing of idiosyncratic shock}{subsection.2.3}% 10
+\BOOKMARK [3][-]{subsubsection.2.3.2}{Specification 2: Impact of mobile money use}{subsection.2.3}% 11
+\BOOKMARK [1][-]{section.3}{Data and summary statistics}{}% 12
+\BOOKMARK [2][-]{subsection.3.1}{Household panel}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.2}{Rainfall measure}{section.3}% 14
+\BOOKMARK [1][-]{section.4}{Empirical analysis}{}% 15
+\BOOKMARK [2][-]{subsection.4.1}{Linking the model and data}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.2}{Main results}{section.4}% 17
+\BOOKMARK [3][-]{subsubsection.4.2.1}{Village risk sharing of idiosyncratic shock}{subsection.4.2}% 18
+\BOOKMARK [3][-]{subsubsection.4.2.2}{Impact of mobile money use}{subsection.4.2}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Robustness}{section.4}% 20
+\BOOKMARK [3][-]{subsubsection.4.3.1}{Placebo test}{subsection.4.3}% 21
+\BOOKMARK [3][-]{subsubsection.4.3.2}{IV regressions}{subsection.4.3}% 22
+\BOOKMARK [3][-]{subsubsection.4.3.3}{Propensity score matching}{subsection.4.3}% 23
+\BOOKMARK [2][-]{subsection.4.4}{Mechanisms}{section.4}% 24
+\BOOKMARK [3][-]{subsubsection.4.4.1}{Remittances}{subsection.4.4}% 25
+\BOOKMARK [3][-]{subsubsection.4.4.2}{Migration}{subsection.4.4}% 26
+\BOOKMARK [3][-]{subsubsection.4.4.3}{The impact of distance to the mobile money agent}{subsection.4.4}% 27
+\BOOKMARK [3][-]{subsubsection.4.4.4}{Urban-rural differences}{subsection.4.4}% 28
+\BOOKMARK [3][-]{subsubsection.4.4.5}{Droughts and floods}{subsection.4.4}% 29
+\BOOKMARK [3][-]{subsubsection.4.4.6}{Non-linearities in rainfall shocks}{subsection.4.4}% 30
+\BOOKMARK [3][-]{subsubsection.4.4.7}{Exogeneity of rainfall shock}{subsection.4.4}% 31
+\BOOKMARK [3][-]{subsubsection.4.4.8}{Other shocks}{subsection.4.4}% 32
+\BOOKMARK [2][-]{subsection.4.5}{Discussion}{section.4}% 33
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 34
